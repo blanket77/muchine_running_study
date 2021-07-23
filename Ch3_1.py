@@ -47,4 +47,5 @@ print(knr.score(train_input, train_target))
 
 knr.n_neighbors = 3
 
+knr.fit(train_input, train_target)
 print(knr.score(test_input, test_target), knr.score(train_input, train_target))
